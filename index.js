@@ -1,7 +1,95 @@
 let answerBook = ""
 let tempBook = ""
 let answerChapter = ""
-let answerVerse = ""
+let answerChapterNumber = 0
+let answerFirstVerse = ""
+let answerSecondVerse = ""
+let answerThirdVerse = ""
+let answerFourthVerse = ""
+let answerFifthVerse = ""
+let answerSixthVerse = ""
+let answerVerseNumber = 0
+let userBookGuess = ""
+let numberOfGuesses = 0
+
+const playBtn = document.querySelector(".play-btn")
+const play = document.querySelector("#play")
+const booksBtn = document.querySelectorAll(".books-btn")
+const versesEl = document.querySelector(".verses")
+const booksEl = document.querySelector(".books")
+
+const firstVerse = document.querySelector("#first-verse")
+const secondVerse = document.querySelector("#second-verse")
+const thirdVerse = document.querySelector("#third-verse")
+const fourthVerse = document.querySelector("#fourth-verse")
+const fifthVerse = document.querySelector("#fifth-verse")
+const sixthVerse = document.querySelector("#sixth-verse")
+
+const answer = document.querySelector("#answer-el")
+const answerText = document.querySelector("#answer-text")
+answer.style.display = "none"
+
+
+playBtn.addEventListener('click', playGame)
+
+booksBtn.forEach(i => {
+    i.addEventListener('click', function() {
+        userBookGuess = this.innerHTML
+        
+        if(userBookGuess === answerBook){
+            if(numberOfGuesses === 0){
+                numberOfGuesses = 1
+            }
+            playBtn.style.display = "flex"
+            versesEl.style.display = "none"
+            booksEl.style.display = "none"
+            answer.style.display = "flex"
+            if(numberOfGuesses === 1){
+                answerText.style.background = "green"
+                answerText.innerHTML = "You won in " + numberOfGuesses + " Try"
+            }else{
+                answerText.style.background = "green"
+                answerText.innerHTML = "You won in " + numberOfGuesses + " Tries"
+            }
+        }else if(userBookGuess != answerBook && numberOfGuesses === 1){
+            secondVerse.innerHTML = "- " + answerSecondVerse
+        }else if(userBookGuess != answerBook && numberOfGuesses === 2){
+            thirdVerse.innerHTML = "- " + answerThirdVerse
+        }else if(userBookGuess != answerBook && numberOfGuesses === 3){
+            fourthVerse.innerHTML = "- " + answerFourthVerse
+        }else if(userBookGuess != answerBook && numberOfGuesses === 4){
+            fifthVerse.innerHTML = "- " + answerFifthVerse
+        }else if(userBookGuess != answerBook && numberOfGuesses === 5){
+            sixthVerse.innerHTML = "- " + answerSixthVerse
+        } else if(userBookGuess != answerBook && numberOfGuesses === 6){
+            playBtn.style.display = "flex"
+            play.innerHTML = "PLAY AGAIN"
+            versesEl.style.display = "none"
+            booksEl.style.display = "none"
+            answer.style.display = "flex"
+            answerText.style.background = "red"
+            answerText.innerHTML = "You Lost"
+            numberOfGuesses = 0
+        }
+    
+        numberOfGuesses++
+    })
+})
+
+function playGame() {
+    numberOfGuesses = 0
+    playBtn.style.display = "none"
+    versesEl.style.display = "block"
+    booksEl.style.display = "flex"
+    answer.style.display = "none"
+    randomVerse()
+    firstVerse.innerHTML = "- " + answerFirstVerse
+    secondVerse.innerHTML = ""
+    thirdVerse.innerHTML = ""
+    fourthVerse.innerHTML = ""
+    fifthVerse.innerHTML = ""
+    sixthVerse.innerHTML = ""
+}
 
 const books = ["Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth", "1 Samuel", "2 Samuel", "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles", "Ezra", "Nehemiah", "Esther", "Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon", "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malichi", "Matthew", "Mark", "Luke", "John", "Acts", "Romans", "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians", "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians", "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews", "James", "1 Peter", "2 Peter", "1 John", "2 John", "3 John", "Jude", "Revelation"]
 
@@ -206,18 +294,27 @@ function randomVerse() {
    answerBook = books[randomBook]
    tempBook = bible.books[randomBook]
 
-   console.log(answerBook)
-
-   max = Math.floor(answerBook.length)
+   max = Math.floor(tempBook.chapter.length)
    let randomChapter = Math.floor(Math.random() * (max - min) + min)
    answerChapter = tempBook.chapter[randomChapter]
+   answerChapterNumber = randomChapter + 1
 
-   max = Math.floor(answerChapter.length)
-   let randomVerse = Math.floor(Math.random() * (max - min) + min)
-    answerVerse = answerChapter.verses[randomVerse]
+   max = Math.floor(answerChapter.verses.length)
+   let randomVerseNumber = Math.floor(Math.random() * (max - min) + min)
+   let randomNumber = 0
 
-   console.log(answerChapter)
+    if(!answerChapter.verses[randomVerseNumber + 5]){
+        randomNumber = answerChapter.verses.length - 7
+    }else{
+        randomNumber = randomVerseNumber
+    }
 
-    console.log(answerVerse)
+    answerFirstVerse = answerChapter.verses[randomNumber]
+    answerSecondVerse = answerChapter.verses[randomNumber + 1]
+    answerThirdVerse = answerChapter.verses[randomNumber + 2]
+    answerFourthVerse = answerChapter.verses[randomNumber + 3]
+    answerFifthVerse = answerChapter.verses[randomNumber + 4]
+    answerSixthVerse = answerChapter.verses[randomNumber + 5]
+    answerVerseNumber = randomNumber + 1
+
 }
-randomVerse()

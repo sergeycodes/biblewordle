@@ -19,12 +19,56 @@
     border-bottom: 1px solid rgb(131, 131, 131);
  }
 
+ .play-btn {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+ }
+
+ #play {
+   display: center;
+   border: none;
+    width: 20%;
+    margin-top: 20px;
+    color: #fff;
+    background-color: grey;
+    padding: 0px 0px;
+    border-radius: 5px;
+    font-size: 23px;
+ }
+
+ #answer-el {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding: 0 10px;
+   top: 150px;
+ }
+
+ #answer-el h3 {
+   display: center;
+   justify-content: center;
+   text-align: center;
+   border: none;
+    width: 20%;
+    color: #fff;
+    background-color: grey;
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+ }
+
  .verses {
+   display: none;
     color: #fff;
     position: relative;
-    left: 30%;
+    left: 20%;
     top: 75px;
-    width: 40%;
+    width: 60%;
     border: 1px solid white;
     height: 350px;
 
@@ -35,13 +79,18 @@
     padding-bottom: 10px;
  }
 
+ .verses ul li h3 {
+   font-size: 1rem;
+   font-weight: 400;
+ }
+
  .books {
     color: #fff;
     position: relative;
     left: 7.5%;
     width: 85%;
     border: 1px solid white;
-    display: flex;
+    display: none;
     justify-content: center;
  }
  .books .item {
@@ -62,6 +111,12 @@
     padding: 0px 0px;
     border-radius: 5px;
     font-size: 23px;
+ }
+
+ #answer {
+   display: flex;
+   color: #fff;
+   background-color: blue;
  }
 
  @media (max-width: 700px){
