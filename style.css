@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+ *{
+    box-sizing: border-box;
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   background-color: #111;
+ }
+
+ .logo {
+    text-align: center;
+    color: #fff;
+ }
+
+ header {
+    border-bottom: 1px solid rgb(131, 131, 131);
+ }
+
+ .verses {
+    color: #fff;
+    position: relative;
+    left: 30%;
+    top: 75px;
+    width: 40%;
+    border: 1px solid white;
+    height: 350px;
+
+ }
+ 
+ .verses ul li {
+    list-style: none;
+    padding-bottom: 10px;
+ }
+
+ .books {
+    color: #fff;
+    position: relative;
+    left: 7.5%;
+    width: 85%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+ }
+ .books .item {
+    padding-right: 0px;
+    order: 6;
+ }
+
+ .books ul li {
+    list-style: none;
+    margin: 4px;
+ }
+
+ .books button {
+    border: none;
+    width: 100%;
+    color: #fff;
+    background-color: grey;
+    padding: 0px 0px;
+    border-radius: 5px;
+    font-size: 23px;
+ }
+
+ @media (max-width: 700px){
+    .books {
+        left: 2.5%;
+        width: 95%;
+        justify-content: space-around;
+    }
+    .books button {
+        font-size: 11px;
+        padding: 2px 0;
+    }
+ }
