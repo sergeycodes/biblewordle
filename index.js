@@ -283,8 +283,362 @@ const Exodus = {
     chapter: [ExodusOne, ExodusTwo, ExodusThree]
 }
 
+const Lev1_1 = "The Lord called to Moses and spoke to him from the tent of meeting. He said,"
+const Lev1_2 = "“Speak to the Israelites and say to them: ‘When anyone among you brings an offering to the Lord, bring as your offering an animal from either the herd or the flock."
+const Lev1_3 = "“‘If the offering is a burnt offering from the herd, you are to offer a male without defect. You must present it at the entrance to the tent of meeting so that it will be acceptable to the Lord."
+const Lev1_4 = "You are to lay your hand on the head of the burnt offering, and it will be accepted on your behalf to make atonement for you."
+const Lev1_5 = "You are to slaughter the young bull before the Lord, and then Aaron’s sons the priests shall bring the blood and splash it against the sides of the altar at the entrance to the tent of meeting."
+const Lev1_6 = "You are to skin the burnt offering and cut it into pieces."
+const Lev1_7 = "The sons of Aaron the priest are to put fire on the altar and arrange wood on the fire."
+const Lev1_8 = "Then Aaron’s sons the priests shall arrange the pieces, including the head and the fat, on the wood that is burning on the altar."
+const Lev1_9 = "You are to wash the internal organs and the legs with water, and the priest is to burn all of it on the altar. It is a burnt offering, a food offering, an aroma pleasing to the Lord."
+const Lev1_10 = "“‘If the offering is a burnt offering from the flock, from either the sheep or the goats, you are to offer a male without defect."
+const Lev1_11 = "You are to slaughter it at the north side of the altar before the Lord, and Aaron’s sons the priests shall splash its blood against the sides of the altar."
+const Lev1_12 = "You are to cut it into pieces, and the priest shall arrange them, including the head and the fat, on the wood that is burning on the altar."
+const Lev1_13 = "You are to wash the internal organs and the legs with water, and the priest is to bring all of them and burn them on the altar. It is a burnt offering, a food offering, an aroma pleasing to the Lord."
+const Lev1_14 = "“‘If the offering to the Lord is a burnt offering of birds, you are to offer a dove or a young pigeon."
+const Lev1_15 = "The priest shall bring it to the altar, wring off the head and burn it on the altar; its blood shall be drained out on the side of the altar."
+const Lev1_16 = "He is to remove the crop and the feathers[a] and throw them down east of the altar where the ashes are."
+const Lev1_17 = "He shall tear it open by the wings, not dividing it completely, and then the priest shall burn it on the wood that is burning on the altar. It is a burnt offering, a food offering, an aroma pleasing to the Lord."
+
+const LeviticusOne = {
+    verses: [Lev1_1,Lev1_2,Lev1_3,Lev1_4,Lev1_5,Lev1_6,Lev1_7,Lev1_8,Lev1_9,Lev1_10,Lev1_11,Lev1_12,Lev1_13,Lev1_14,Lev1_15,Lev1_16,Lev1_17]
+}
+
+const Lev2_1 = "“‘When anyone brings a grain offering to the Lord, their offering is to be of the finest flour. They are to pour olive oil on it, put incense on it"
+const Lev2_2 = "and take it to Aaron’s sons the priests. The priest shall take a handful of the flour and oil, together with all the incense, and burn this as a memorial[a] portion on the altar, a food offering, an aroma pleasing to the Lord."
+const Lev2_3 = "The rest of the grain offering belongs to Aaron and his sons; it is a most holy part of the food offerings presented to the Lord."
+const Lev2_4 = "“‘If you bring a grain offering baked in an oven, it is to consist of the finest flour: either thick loaves made without yeast and with olive oil mixed in or thin loaves made without yeast and brushed with olive oil."
+const Lev2_5 = "If your grain offering is prepared on a griddle, it is to be made of the finest flour mixed with oil, and without yeast."
+const Lev2_6 = "Crumble it and pour oil on it; it is a grain offering."
+const Lev2_7 = "If your grain offering is cooked in a pan, it is to be made of the finest flour and some olive oil."
+const Lev2_8 = "Bring the grain offering made of these things to the Lord; present it to the priest, who shall take it to the altar."
+const Lev2_9 = "He shall take out the memorial portion from the grain offering and burn it on the altar as a food offering, an aroma pleasing to the Lord."
+const Lev2_10 = "The rest of the grain offering belongs to Aaron and his sons; it is a most holy part of the food offerings presented to the Lord."
+const Lev2_11 = "“‘Every grain offering you bring to the Lord must be made without yeast, for you are not to burn any yeast or honey in a food offering presented to the Lord."
+const Lev2_12 = "You may bring them to the Lord as an offering of the firstfruits, but they are not to be offered on the altar as a pleasing aroma."
+const Lev2_13 = "Season all your grain offerings with salt. Do not leave the salt of the covenant of your God out of your grain offerings; add salt to all your offerings."
+const Lev2_14 = "“‘If you bring a grain offering of firstfruits to the Lord, offer crushed heads of new grain roasted in the fire."
+const Lev2_15 = "Put oil and incense on it; it is a grain offering."
+const Lev2_16 = "The priest shall burn the memorial portion of the crushed grain and the oil, together with all the incense, as a food offering presented to the Lord."
+
+const LeviticusTwo = {
+    verses: [Lev2_1,Lev2_2,Lev2_3,Lev2_4,Lev2_5,Lev2_6,Lev2_7,Lev2_8,Lev2_9,Lev2_10,Lev2_11,Lev2_12,Lev2_13,Lev2_14,Lev2_15,Lev2_16]
+}
+
+const Lev3_1 = "“‘If your offering is a fellowship offering, and you offer an animal from the herd, whether male or female, you are to present before the Lord an animal without defect."
+const Lev3_2 = "You are to lay your hand on the head of your offering and slaughter it at the entrance to the tent of meeting. Then Aaron’s sons the priests shall splash the blood against the sides of the altar."
+const Lev3_3 = "From the fellowship offering you are to bring a food offering to the Lord: the internal organs and all the fat that is connected to them, "
+const Lev3_4 = "both kidneys with the fat on them near the loins, and the long lobe of the liver, which you will remove with the kidneys."
+const Lev3_5 = "Then Aaron’s sons are to burn it on the altar on top of the burnt offering that is lying on the burning wood; it is a food offering, an aroma pleasing to the Lord."
+const Lev3_6 = "“‘If you offer an animal from the flock as a fellowship offering to the Lord, you are to offer a male or female without defect."
+const Lev3_7 = "If you offer a lamb, you are to present it before the Lord,"
+const Lev3_8 = "lay your hand on its head and slaughter it in front of the tent of meeting. Then Aaron’s sons shall splash its blood against the sides of the altar."
+const Lev3_9 = "From the fellowship offering you are to bring a food offering to the Lord: its fat, the entire fat tail cut off close to the backbone, the internal organs and all the fat that is connected to them,"
+const Lev3_10 = "both kidneys with the fat on them near the loins, and the long lobe of the liver, which you will remove with the kidneys."
+const Lev3_11 = "The priest shall burn them on the altar as a food offering presented to the Lord."
+const Lev3_12 = "“‘If your offering is a goat, you are to present it before the Lord," 
+const Lev3_13 = "lay your hand on its head and slaughter it in front of the tent of meeting. Then Aaron’s sons shall splash its blood against the sides of the altar."
+const Lev3_14 = "From what you offer you are to present this food offering to the Lord: the internal organs and all the fat that is connected to them,"
+const Lev3_15 = "both kidneys with the fat on them near the loins, and the long lobe of the liver, which you will remove with the kidneys."
+const Lev3_16 = "The priest shall burn them on the altar as a food offering, a pleasing aroma. All the fat is the Lord’s."
+const Lev3_17 = "“‘This is a lasting ordinance for the generations to come, wherever you live: You must not eat any fat or any blood.’”"
+
+const LeviticusThree = {
+    verses: [Lev3_1,Lev3_2,Lev3_3,Lev3_4,Lev3_5,Lev3_6,Lev3_7,Lev3_8,Lev3_9,Lev3_10,Lev3_11,Lev3_12,Lev3_13,Lev3_14,Lev3_15,Lev3_16,Lev3_17]
+}
+
+const Leviticus = {
+    chapter: [LeviticusOne,LeviticusTwo,LeviticusThree]
+}
+
+const Num1_1 = "The Lord spoke to Moses in the tent of meeting in the Desert of Sinai on the first day of the second month of the second year after the Israelites came out of Egypt. He said:"
+const Num1_2 = "Take a census of the whole Israelite community by their clans and families, listing every man by name, one by one."
+const Num1_3 = "You and Aaron are to count according to their divisions all the men in Israel who are twenty years old or more and able to serve in the army."
+const Num1_4 = "One man from each tribe, each of them the head of his family, is to help you."
+const Num1_5 = "These are the names of the men who are to assist you: from Reuben, Elizur son of Shedeur;"
+const Num1_6 = "from Simeon, Shelumiel son of Zurishaddai;"
+const Num1_7 = "from Judah, Nahshon son of Amminadab;"
+const Num1_8 = "from Issachar, Nethanel son of Zuar;"
+const Num1_9 = "from Zebulun, Eliab son of Helon;"
+const Num1_10 = "from the sons of Joseph: from Ephraim, Elishama son of Ammihud; from Manasseh, Gamaliel son of Pedahzur;"
+const Num1_11 = "from Benjamin, Abidan son of Gideoni;"
+const Num1_12 = "from Dan, Ahiezer son of Ammishaddai;"
+const Num1_13 = "from Asher, Pagiel son of Okran;"
+const Num1_14 = "from Gad, Eliasaph son of Deuel;"
+const Num1_15 = "from Naphtali, Ahira son of Enan.”"
+const Num1_16 = "These were the men appointed from the community, the leaders of their ancestral tribes. They were the heads of the clans of Israel."
+const Num1_17 = "Moses and Aaron took these men whose names had been specified,"
+const Num1_18 = "and they called the whole community together on the first day of the second month. The people registered their ancestry by their clans and families, and the men twenty years old or more were listed by name, one by one,"
+const Num1_19 = "as the Lord commanded Moses. And so he counted them in the Desert of Sinai:"
+const Num1_20 = "From the descendants of Reuben the firstborn son of Israel: All the men twenty years old or more who were able to serve in the army were listed by name, one by one, according to the records of their clans and families."
+const Num1_21 = "The number from the tribe of Reuben was 46,500."
+const Num1_22 = "From the descendants of Simeon: All the men twenty years old or more who were able to serve in the army were counted and listed by name, one by one, according to the records of their clans and families."
+const Num1_23 = "The number from the tribe of Simeon was 59,300."
+const Num1_24 = "From the descendants of Gad: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_25 = "The number from the tribe of Gad was 45,650."
+const Num1_26 = "From the descendants of Judah: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_27 = "The number from the tribe of Judah was 74,600."
+const Num1_28 = "From the descendants of Issachar: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_29 = "The number from the tribe of Issachar was 54,400."
+const Num1_30 = "From the descendants of Zebulun: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_31 = "The number from the tribe of Zebulun was 57,400."
+const Num1_32 = "From the sons of Joseph: From the descendants of Ephraim: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_33 = "The number from the tribe of Ephraim was 40,500."
+const Num1_34 = "From the descendants of Manasseh: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_35 = "The number from the tribe of Manasseh was 32,200."
+const Num1_36 = "From the descendants of Benjamin: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_37 = "The number from the tribe of Benjamin was 35,400."
+const Num1_38 = "From the descendants of Dan: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_39 = "The number from the tribe of Dan was 62,700."
+const Num1_40 = "From the descendants of Asher: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_41 = "The number from the tribe of Asher was 41,500."
+const Num1_42 = "From the descendants of Naphtali: All the men twenty years old or more who were able to serve in the army were listed by name, according to the records of their clans and families."
+const Num1_43 = "The number from the tribe of Naphtali was 53,400."
+const Num1_44 = "These were the men counted by Moses and Aaron and the twelve leaders of Israel, each one representing his family."
+const Num1_45 = "All the Israelites twenty years old or more who were able to serve in Israel’s army were counted according to their families."
+const Num1_46 = "The total number was 603,550."
+const Num1_47 = "The ancestral tribe of the Levites, however, was not counted along with the others."
+const Num1_48 = "The Lord had said to Moses:"
+const Num1_49 = "“You must not count the tribe of Levi or include them in the census of the other Israelites."
+const Num1_50 = "Instead, appoint the Levites to be in charge of the tabernacle of the covenant law—over all its furnishings and everything belonging to it. They are to carry the tabernacle and all its furnishings; they are to take care of it and encamp around it."
+const Num1_51 = "Whenever the tabernacle is to move, the Levites are to take it down, and whenever the tabernacle is to be set up, the Levites shall do it. Anyone else who approaches it is to be put to death."
+const Num1_52 = "The Israelites are to set up their tents by divisions, each of them in their own camp under their standard."
+const Num1_53 = "The Levites, however, are to set up their tents around the tabernacle of the covenant law so that my wrath will not fall on the Israelite community. The Levites are to be responsible for the care of the tabernacle of the covenant law.”"
+const Num1_54 = "The Israelites did all this just as the Lord commanded Moses."
+
+const NumbersOne = {
+    verses: [Num1_1,Num1_2,Num1_3,Num1_4,Num1_5,Num1_6,Num1_7,Num1_8,Num1_9,Num1_10,Num1_11,Num1_12,Num1_13,Num1_14,Num1_15,Num1_16,Num1_17,Num1_18,Num1_19,Num1_20,Num1_21,Num1_22,Num1_23,Num1_24,Num1_25,Num1_26,Num1_27,Num1_28,Num1_29,Num1_30,Num1_31,Num1_32,Num1_33,Num1_34,Num1_35,Num1_36,Num1_37,Num1_38,Num1_39,Num1_40,Num1_41,Num1_42,Num1_43,Num1_44,Num1_45,Num1_46,Num1_47,Num1_48,Num1_49,Num1_50,Num1_51,Num1_52,Num1_53,Num1_54]
+}
+
+const Num2_1 = "The Lord said to Moses and Aaron:"
+const Num2_2 = "“The Israelites are to camp around the tent of meeting some distance from it, each of them under their standard and holding the banners of their family.”"
+const Num2_3 = "On the east, toward the sunrise, the divisions of the camp of Judah are to encamp under their standard. The leader of the people of Judah is Nahshon son of Amminadab."
+const Num2_4 = "His division numbers 74,600."
+const Num2_5 = "The tribe of Issachar will camp next to them. The leader of the people of Issachar is Nethanel son of Zuar."
+const Num2_6 = "His division numbers 54,400."
+const Num2_7 = "The tribe of Zebulun will be next. The leader of the people of Zebulun is Eliab son of Helon."
+const Num2_8 = "His division numbers 57,400."
+const Num2_9 = "All the men assigned to the camp of Judah, according to their divisions, number 186,400. They will set out first."
+const Num2_10 = "On the south will be the divisions of the camp of Reuben under their standard. The leader of the people of Reuben is Elizur son of Shedeur."
+const Num2_11 = "His division numbers 46,500."
+const Num2_12 = "The tribe of Simeon will camp next to them. The leader of the people of Simeon is Shelumiel son of Zurishaddai."
+const Num2_13 = "His division numbers 59,300."
+const Num2_14 = "The tribe of Gad will be next. The leader of the people of Gad is Eliasaph son of Deuel."
+const Num2_15 = "His division numbers 45,650."
+const Num2_16 = "All the men assigned to the camp of Reuben, according to their divisions, number 151,450. They will set out second."
+const Num2_17 = "Then the tent of meeting and the camp of the Levites will set out in the middle of the camps. They will set out in the same order as they encamp, each in their own place under their standard."
+const Num2_18 = "On the west will be the divisions of the camp of Ephraim under their standard. The leader of the people of Ephraim is Elishama son of Ammihud."
+const Num2_19 = "His division numbers 40,500."
+const Num2_20 = "The tribe of Manasseh will be next to them. The leader of the people of Manasseh is Gamaliel son of Pedahzur."
+const Num2_21 = "His division numbers 32,200."
+const Num2_22 = "The tribe of Benjamin will be next. The leader of the people of Benjamin is Abidan son of Gideoni."
+const Num2_23 = "His division numbers 35,400."
+const Num2_24 = "All the men assigned to the camp of Ephraim, according to their divisions, number 108,100. They will set out third."
+const Num2_25 = "On the north will be the divisions of the camp of Dan under their standard. The leader of the people of Dan is Ahiezer son of Ammishaddai."
+const Num2_26 = "His division numbers 62,700."
+const Num2_27 = "The tribe of Asher will camp next to them. The leader of the people of Asher is Pagiel son of Okran."
+const Num2_28 = "His division numbers 41,500."
+const Num2_29 = "The tribe of Naphtali will be next. The leader of the people of Naphtali is Ahira son of Enan."
+const Num2_30 = "His division numbers 53,400."
+const Num2_31 = "All the men assigned to the camp of Dan number 157,600. They will set out last, under their standards."
+const Num2_32 = "These are the Israelites, counted according to their families. All the men in the camps, by their divisions, number 603,550."
+const Num2_33 = "The Levites, however, were not counted along with the other Israelites, as the Lord commanded Moses."
+const Num2_34 = "So the Israelites did everything the Lord commanded Moses; that is the way they encamped under their standards, and that is the way they set out, each of them with their clan and family."
+
+const NumbersTwo = {
+    verses: [Num2_1,Num2_2,Num2_3,Num2_4,Num2_5,Num2_6,Num2_7,Num2_8,Num2_9,Num2_10,Num2_11,Num2_12,Num2_13,Num2_14,Num2_15,Num2_16,Num2_17,Num2_18,Num2_19,Num2_20,Num2_21,Num2_22,Num2_23,Num2_24,Num2_25,Num2_26,Num2_27,Num2_28,Num2_29,Num2_30,Num2_31,Num2_32,Num2_33,Num2_34]
+}
+
+const Num3_1 = "This is the account of the family of Aaron and Moses at the time the Lord spoke to Moses at Mount Sinai."
+const Num3_2 = "The names of the sons of Aaron were Nadab the firstborn and Abihu, Eleazar and Ithamar."
+const Num3_3 = "Those were the names of Aaron’s sons, the anointed priests, who were ordained to serve as priests."
+const Num3_4 = "Nadab and Abihu, however, died before the Lord when they made an offering with unauthorized fire before him in the Desert of Sinai. They had no sons, so Eleazar and Ithamar served as priests during the lifetime of their father Aaron."
+const Num3_5 = "The Lord said to Moses,"
+const Num3_6 = "“Bring the tribe of Levi and present them to Aaron the priest to assist him."
+const Num3_7 = "They are to perform duties for him and for the whole community at the tent of meeting by doing the work of the tabernacle."
+const Num3_8 = "They are to take care of all the furnishings of the tent of meeting, fulfilling the obligations of the Israelites by doing the work of the tabernacle."
+const Num3_9 = "Give the Levites to Aaron and his sons; they are the Israelites who are to be given wholly to him."
+const Num3_10 = "Appoint Aaron and his sons to serve as priests; anyone else who approaches the sanctuary is to be put to death.”"
+const Num3_11 = "The Lord also said to Moses,"
+const Num3_12 = "“I have taken the Levites from among the Israelites in place of the first male offspring of every Israelite woman. The Levites are mine,"
+const Num3_13 = "for all the firstborn are mine. When I struck down all the firstborn in Egypt, I set apart for myself every firstborn in Israel, whether human or animal. They are to be mine. I am the Lord.”"
+const Num3_14 = "The Lord said to Moses in the Desert of Sinai,"
+const Num3_15 = "“Count the Levites by their families and clans. Count every male a month old or more.”"
+const Num3_16 = "So Moses counted them, as he was commanded by the word of the Lord."
+const Num3_17 = "These were the names of the sons of Levi: Gershon, Kohath and Merari."
+const Num3_18 = "These were the names of the Gershonite clans: Libni and Shimei."
+const Num3_19 = "The Kohathite clans: Amram, Izhar, Hebron and Uzziel."
+const Num3_20 = "The Merarite clans: Mahli and Mushi. These were the Levite clans, according to their families."
+const Num3_21 = "To Gershon belonged the clans of the Libnites and Shimeites; these were the Gershonite clans."
+const Num3_22 = "The number of all the males a month old or more who were counted was 7,500."
+const Num3_23 = "The Gershonite clans were to camp on the west, behind the tabernacle."
+const Num3_24 = "The leader of the families of the Gershonites was Eliasaph son of Lael."
+const Num3_25 = "At the tent of meeting the Gershonites were responsible for the care of the tabernacle and tent, its coverings, the curtain at the entrance to the tent of meeting,"
+const Num3_26 = "the curtains of the courtyard, the curtain at the entrance to the courtyard surrounding the tabernacle and altar, and the ropes—and everything related to their use."
+const Num3_27 = "To Kohath belonged the clans of the Amramites, Izharites, Hebronites and Uzzielites; these were the Kohathite clans."
+const Num3_28 = "The number of all the males a month old or more was 8,600.[b] The Kohathites were responsible for the care of the sanctuary."
+const Num3_29 = "The Kohathite clans were to camp on the south side of the tabernacle."
+const Num3_30 = "The leader of the families of the Kohathite clans was Elizaphan son of Uzziel. "
+const Num3_31 = "They were responsible for the care of the ark, the table, the lampstand, the altars, the articles of the sanctuary used in ministering, the curtain, and everything related to their use."
+const Num3_32 = "The chief leader of the Levites was Eleazar son of Aaron, the priest. He was appointed over those who were responsible for the care of the sanctuary."
+const Num3_33 = "To Merari belonged the clans of the Mahlites and the Mushites; these were the Merarite clans."
+const Num3_34 = "The number of all the males a month old or more who were counted was 6,200. "
+const Num3_35 = "The leader of the families of the Merarite clans was Zuriel son of Abihail; they were to camp on the north side of the tabernacle."
+const Num3_36 = "The Merarites were appointed to take care of the frames of the tabernacle, its crossbars, posts, bases, all its equipment, and everything related to their use,"
+const Num3_37 = "as well as the posts of the surrounding courtyard with their bases, tent pegs and ropes."
+const Num3_38 = "Moses and Aaron and his sons were to camp to the east of the tabernacle, toward the sunrise, in front of the tent of meeting. They were responsible for the care of the sanctuary on behalf of the Israelites. Anyone else who approached the sanctuary was to be put to death."
+const Num3_39 = "The total number of Levites counted at the Lord’s command by Moses and Aaron according to their clans, including every male a month old or more, was 22,000."
+const Num3_40 = "The Lord said to Moses, “Count all the firstborn Israelite males who are a month old or more and make a list of their names."
+const Num3_41 = "Take the Levites for me in place of all the firstborn of the Israelites, and the livestock of the Levites in place of all the firstborn of the livestock of the Israelites. I am the Lord.”"
+const Num3_42 = "So Moses counted all the firstborn of the Israelites, as the Lord commanded him."
+const Num3_43 = "The total number of firstborn males a month old or more, listed by name, was 22,273."
+const Num3_44 = "The Lord also said to Moses,"
+const Num3_45 = "“Take the Levites in place of all the firstborn of Israel, and the livestock of the Levites in place of their livestock. The Levites are to be mine. I am the Lord."
+const Num3_46 = "To redeem the 273 firstborn Israelites who exceed the number of the Levites,"
+const Num3_47 = "collect five shekels for each one, according to the sanctuary shekel, which weighs twenty gerahs."
+const Num3_48 = "Give the money for the redemption of the additional Israelites to Aaron and his sons.”"
+const Num3_49 = "So Moses collected the redemption money from those who exceeded the number redeemed by the Levites."
+const Num3_50 = "From the firstborn of the Israelites he collected silver weighing 1,365 shekels,[d] according to the sanctuary shekel."
+const Num3_51 = "Moses gave the redemption money to Aaron and his sons, as he was commanded by the word of the Lord."
+
+const NumbersThree = {
+    verses: [Num3_1,Num3_2,Num3_3,Num3_4,Num3_5,Num3_6,Num3_7,Num3_8,Num3_9,Num3_10,Num3_11,Num3_12,Num3_13,Num3_14,Num3_15,Num3_16,Num3_17,Num3_18,Num3_19,Num3_20,Num3_21,Num3_22,Num3_23,Num3_24,Num3_25,Num3_26,Num3_27,Num3_28,Num3_29,Num3_30,Num3_31,Num3_32,Num3_33,Num3_34,Num3_35,Num3_36,Num3_37,Num3_38,Num3_39,Num3_40,Num3_41,Num3_42,Num3_43,Num3_44,Num3_45,Num3_46,Num3_47,Num3_48,Num3_49,Num3_50,Num3_51]
+}
+
+const Numbers = {
+    chapter: [NumbersOne, NumbersTwo,NumbersThree]
+}
+
+const Deut1_1 = "These are the words Moses spoke to all Israel in the wilderness east of the Jordan—that is, in the Arabah—opposite Suph, between Paran and Tophel, Laban, Hazeroth and Dizahab."
+const Deut1_2 = "(It takes eleven days to go from Horeb to Kadesh Barnea by the Mount Seir road.)"
+const Deut1_3 = "In the fortieth year, on the first day of the eleventh month, Moses proclaimed to the Israelites all that the Lord had commanded him concerning them."
+const Deut1_4 = "This was after he had defeated Sihon king of the Amorites, who reigned in Heshbon, and at Edrei had defeated Og king of Bashan, who reigned in Ashtaroth."
+const Deut1_5 = "East of the Jordan in the territory of Moab, Moses began to expound this law, saying:"
+const Deut1_6 = "The Lord our God said to us at Horeb, “You have stayed long enough at this mountain."
+const Deut1_7 = " Break camp and advance into the hill country of the Amorites; go to all the neighboring peoples in the Arabah, in the mountains, in the western foothills, in the Negev and along the coast, to the land of the Canaanites and to Lebanon, as far as the great river, the Euphrates."
+const Deut1_8 = "See, I have given you this land. Go in and take possession of the land the Lord swore he would give to your fathers—to Abraham, Isaac and Jacob—and to their descendants after them.”"
+const Deut1_9 = "At that time I said to you, “You are too heavy a burden for me to carry alone."
+const Deut1_10 = "The Lord your God has increased your numbers so that today you are as numerous as the stars in the sky."
+const Deut1_11 = "May the Lord, the God of your ancestors, increase you a thousand times and bless you as he has promised!"
+const Deut1_12 = "But how can I bear your problems and your burdens and your disputes all by myself?"
+const Deut1_13 = "Choose some wise, understanding and respected men from each of your tribes, and I will set them over you.”"
+const Deut1_14 = "You answered me, “What you propose to do is good.”"
+const Deut1_15 = "So I took the leading men of your tribes, wise and respected men, and appointed them to have authority over you—as commanders of thousands, of hundreds, of fifties and of tens and as tribal officials."
+const Deut1_16 = "And I charged your judges at that time, “Hear the disputes between your people and judge fairly, whether the case is between two Israelites or between an Israelite and a foreigner residing among you."
+const Deut1_17 = "Do not show partiality in judging; hear both small and great alike. Do not be afraid of anyone, for judgment belongs to God. Bring me any case too hard for you, and I will hear it.”"
+const Deut1_18 = "And at that time I told you everything you were to do."
+const Deut1_19 = "Then, as the Lord our God commanded us, we set out from Horeb and went toward the hill country of the Amorites through all that vast and dreadful wilderness that you have seen, and so we reached Kadesh Barnea."
+const Deut1_20 = "Then I said to you, “You have reached the hill country of the Amorites, which the Lord our God is giving us."
+const Deut1_21 = "See, the Lord your God has given you the land. Go up and take possession of it as the Lord, the God of your ancestors, told you. Do not be afraid; do not be discouraged.”"
+const Deut1_22 = "Then all of you came to me and said, “Let us send men ahead to spy out the land for us and bring back a report about the route we are to take and the towns we will come to.”"
+const Deut1_23 = "The idea seemed good to me; so I selected twelve of you, one man from each tribe."
+const Deut1_24 = "They left and went up into the hill country, and came to the Valley of Eshkol and explored it."
+const Deut1_25 = "Taking with them some of the fruit of the land, they brought it down to us and reported, “It is a good land that the Lord our God is giving us.”"
+const Deut1_26 = "But you were unwilling to go up; you rebelled against the command of the Lord your God."
+const Deut1_27 = "You grumbled in your tents and said, “The Lord hates us; so he brought us out of Egypt to deliver us into the hands of the Amorites to destroy us."
+const Deut1_28 = "Where can we go? Our brothers have made our hearts melt in fear. They say, ‘The people are stronger and taller than we are; the cities are large, with walls up to the sky. We even saw the Anakites there.’”"
+const Deut1_29 = "Then I said to you, “Do not be terrified; do not be afraid of them."
+const Deut1_30 = "The Lord your God, who is going before you, will fight for you, as he did for you in Egypt, before your very eyes, "
+const Deut1_31 = "and in the wilderness. There you saw how the Lord your God carried you, as a father carries his son, all the way you went until you reached this place.”"
+const Deut1_32 = "In spite of this, you did not trust in the Lord your God,"
+const Deut1_33 = "who went ahead of you on your journey, in fire by night and in a cloud by day, to search out places for you to camp and to show you the way you should go."
+const Deut1_34 = "When the Lord heard what you said, he was angry and solemnly swore:"
+const Deut1_35 = "“No one from this evil generation shall see the good land I swore to give your ancestors,"
+const Deut1_36 = "except Caleb son of Jephunneh. He will see it, and I will give him and his descendants the land he set his feet on, because he followed the Lord wholeheartedly.”"
+const Deut1_37 = "Because of you the Lord became angry with me also and said, “You shall not enter it, either."
+const Deut1_38 = "But your assistant, Joshua son of Nun, will enter it. Encourage him, because he will lead Israel to inherit it."
+const Deut1_39 = "And the little ones that you said would be taken captive, your children who do not yet know good from bad—they will enter the land. I will give it to them and they will take possession of it."
+const Duet1_40 = "But as for you, turn around and set out toward the desert along the route to the Red Sea.”"
+const Deut1_41 = "Then you replied, “We have sinned against the Lord. We will go up and fight, as the Lord our God commanded us.” So every one of you put on his weapons, thinking it easy to go up into the hill country."
+const Deut1_42 = "But the Lord said to me, “Tell them, ‘Do not go up and fight, because I will not be with you. You will be defeated by your enemies.’”"
+const Deut1_43 = "So I told you, but you would not listen. You rebelled against the Lord’s command and in your arrogance you marched up into the hill country."
+const Deut1_44 = "The Amorites who lived in those hills came out against you; they chased you like a swarm of bees and beat you down from Seir all the way to Hormah. "
+const Deut1_45 = "You came back and wept before the Lord, but he paid no attention to your weeping and turned a deaf ear to you."
+const Deut1_46 = "And so you stayed in Kadesh many days—all the time you spent there."
+
+const DeuteronomyOne = {
+    verses: [Deut1_1, Deut1_2,Deut1_3,Deut1_4,Deut1_5,Deut1_6,Deut1_7,Deut1_8,Deut1_9,Deut1_10,Deut1_12,Deut1_13,Deut1_14,Deut1_15,Deut1_16,Deut1_17,Deut1_18,Deut1_19,Deut1_20,Deut1_21,Deut1_22,Deut1_23,Deut1_24,Deut1_25,Deut1_26,Deut1_27,Deut1_28,Deut1_29,Deut1_30,Deut1_31,Deut1_32,Deut1_33,Deut1_34,Deut1_35,Deut1_36,Deut1_37,Deut1_38,Deut1_39,Duet1_40,Deut1_41,Deut1_42,Deut1_43,Deut1_44,Deut1_45,Deut1_46]
+}
+
+const Deuteronomy = {
+    chapter: [DeuteronomyOne]
+}
+
+const Josh1_1 = "After the death of Moses the servant of the Lord, the Lord said to Joshua son of Nun, Moses’ aide:"
+const Josh1_2 = "“Moses my servant is dead. Now then, you and all these people, get ready to cross the Jordan River into the land I am about to give to them—to the Israelites. "
+const Josh1_3 = "I will give you every place where you set your foot, as I promised Moses."
+const Josh1_4 = "Your territory will extend from the desert to Lebanon, and from the great river, the Euphrates—all the Hittite country—to the Mediterranean Sea in the west."
+const Josh1_5 = "No one will be able to stand against you all the days of your life. As I was with Moses, so I will be with you; I will never leave you nor forsake you."
+const Josh1_6 = "Be strong and courageous, because you will lead these people to inherit the land I swore to their ancestors to give them."
+const Josh1_7 = "“Be strong and very courageous. Be careful to obey all the law my servant Moses gave you; do not turn from it to the right or to the left, that you may be successful wherever you go."
+const Josh1_8 = " Keep this Book of the Law always on your lips; meditate on it day and night, so that you may be careful to do everything written in it. Then you will be prosperous and successful."
+const Josh1_9 = "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.”"
+const Josh1_10 = "So Joshua ordered the officers of the people:"
+const Josh1_11 = "“Go through the camp and tell the people, ‘Get your provisions ready. Three days from now you will cross the Jordan here to go in and take possession of the land the Lord your God is giving you for your own.’”"
+const Josh1_12 = "But to the Reubenites, the Gadites and the half-tribe of Manasseh, Joshua said,"
+const Josh1_13 = "“Remember the command that Moses the servant of the Lord gave you after he said, ‘The Lord your God will give you rest by giving you this land.’"
+const Josh1_14 = "Your wives, your children and your livestock may stay in the land that Moses gave you east of the Jordan, but all your fighting men, ready for battle, must cross over ahead of your fellow Israelites. You are to help them"
+const Josh1_15 = "until the Lord gives them rest, as he has done for you, and until they too have taken possession of the land the Lord your God is giving them. After that, you may go back and occupy your own land, which Moses the servant of the Lord gave you east of the Jordan toward the sunrise.”"
+const Josh1_16 = "Then they answered Joshua, “Whatever you have commanded us we will do, and wherever you send us we will go."
+const Josh1_17 = "Just as we fully obeyed Moses, so we will obey you. Only may the Lord your God be with you as he was with Moses."
+const Josh1_18 = "Whoever rebels against your word and does not obey it, whatever you may command them, will be put to death. Only be strong and courageous!”"
+
+const JoshuaOne = {
+    verses: [Josh1_1,Josh1_2, Josh1_3,Josh1_4,Josh1_5,Josh1_6,Josh1_7,Josh1_8,Josh1_9,Josh1_10,Josh1_11,Josh1_12,Josh1_13,Josh1_14,Josh1_15,Josh1_16,Josh1_17,Josh1_18]
+}
+
+const Joshua = {
+    chapter: [JoshuaOne]
+}
+
+const Judg1_1 = "After the death of Joshua, the Israelites asked the Lord, “Who of us is to go up first to fight against the Canaanites?”"
+const Judg1_2 = "The Lord answered, “Judah shall go up; I have given the land into their hands.”"
+const Judg1_3 = "The men of Judah then said to the Simeonites their fellow Israelites, “Come up with us into the territory allotted to us, to fight against the Canaanites. We in turn will go with you into yours.” So the Simeonites went with them."
+const Judg1_4 = "When Judah attacked, the Lord gave the Canaanites and Perizzites into their hands, and they struck down ten thousand men at Bezek."
+const Judg1_5 = " It was there that they found Adoni-Bezek and fought against him, putting to rout the Canaanites and Perizzites."
+const Judg1_6 = "Adoni-Bezek fled, but they chased him and caught him, and cut off his thumbs and big toes."
+const Judg1_7 = "Then Adoni-Bezek said, “Seventy kings with their thumbs and big toes cut off have picked up scraps under my table. Now God has paid me back for what I did to them.” They brought him to Jerusalem, and he died there."
+const Judg1_8 = "The men of Judah attacked Jerusalem also and took it. They put the city to the sword and set it on fire."
+const Judg1_9 = "After that, Judah went down to fight against the Canaanites living in the hill country, the Negev and the western foothills."
+const Judg1_10 = "They advanced against the Canaanites living in Hebron (formerly called Kiriath Arba) and defeated Sheshai, Ahiman and Talmai."
+const Judg1_11 = "From there they advanced against the people living in Debir (formerly called Kiriath Sepher)."
+const Judg1_12 = "And Caleb said, “I will give my daughter Aksah in marriage to the man who attacks and captures Kiriath Sepher.”"
+const Judg1_13 = "Othniel son of Kenaz, Caleb’s younger brother, took it; so Caleb gave his daughter Aksah to him in marriage."
+const Judg1_14 = "One day when she came to Othniel, she urged him to ask her father for a field. When she got off her donkey, Caleb asked her, “What can I do for you?”"
+const Judg1_15 = "She replied, “Do me a special favor. Since you have given me land in the Negev, give me also springs of water.” So Caleb gave her the upper and lower springs."
+const Judg1_16 = "The descendants of Moses’ father-in-law, the Kenite, went up from the City of Palms[b] with the people of Judah to live among the inhabitants of the Desert of Judah in the Negev near Arad."
+const Judg1_17 = "Then the men of Judah went with the Simeonites their fellow Israelites and attacked the Canaanites living in Zephath, and they totally destroyed the city. Therefore it was called Hormah."
+const Judg1_18 = "Judah also took Gaza, Ashkelon and Ekron—each city with its territory."
+const Judg1_19 = "The Lord was with the men of Judah. They took possession of the hill country, but they were unable to drive the people from the plains, because they had chariots fitted with iron."
+const Judg1_20 = "As Moses had promised, Hebron was given to Caleb, who drove from it the three sons of Anak."
+const Judg1_21 = "The Benjamites, however, did not drive out the Jebusites, who were living in Jerusalem; to this day the Jebusites live there with the Benjamites."
+const Judg1_22 = "Now the tribes of Joseph attacked Bethel, and the Lord was with them."
+const Judg1_23 = "When they sent men to spy out Bethel (formerly called Luz), "
+const Judg1_24 = "the spies saw a man coming out of the city and they said to him, “Show us how to get into the city and we will see that you are treated well.”"
+const Judg1_25 = " So he showed them, and they put the city to the sword but spared the man and his whole family."
+const Judg1_26 = "He then went to the land of the Hittites, where he built a city and called it Luz, which is its name to this day."
+const Judg1_27 = "But Manasseh did not drive out the people of Beth Shan or Taanach or Dor or Ibleam or Megiddo and their surrounding settlements, for the Canaanites were determined to live in that land."
+const Judg1_28 = "When Israel became strong, they pressed the Canaanites into forced labor but never drove them out completely."
+const Judg1_29 = "Nor did Ephraim drive out the Canaanites living in Gezer, but the Canaanites continued to live there among them."
+const Judg1_30 = "Neither did Zebulun drive out the Canaanites living in Kitron or Nahalol, so these Canaanites lived among them, but Zebulun did subject them to forced labor."
+const Judg1_31 = "Nor did Asher drive out those living in Akko or Sidon or Ahlab or Akzib or Helbah or Aphek or Rehob."
+const Judg1_32 = "The Asherites lived among the Canaanite inhabitants of the land because they did not drive them out."
+const Judg1_33 = "Neither did Naphtali drive out those living in Beth Shemesh or Beth Anath; but the Naphtalites too lived among the Canaanite inhabitants of the land, and those living in Beth Shemesh and Beth Anath became forced laborers for them."
+const Judg1_34 = "The Amorites confined the Danites to the hill country, not allowing them to come down into the plain."
+const Judg1_35 = "And the Amorites were determined also to hold out in Mount Heres, Aijalon and Shaalbim, but when the power of the tribes of Joseph increased, they too were pressed into forced labor."
+const Judg1_36 = "The boundary of the Amorites was from Scorpion Pass to Sela and beyond."
+
+const JudgesOne = {
+    verses: [Judg1_1,Judg1_2,Judg1_3,Judg1_4,Judg1_5,Judg1_6,Judg1_7,Judg1_8,Judg1_9,Judg1_10,Judg1_11,Judg1_12,Judg1_13,Judg1_14,Judg1_15,Judg1_16,Judg1_17,Judg1_18,Judg1_19,Judg1_20,Judg1_21,Judg1_22,Judg1_23,Judg1_24,Judg1_25,Judg1_26,Judg1_27,Judg1_28,Judg1_29,Judg1_30,Judg1_31,Judg1_32,Judg1_33,Judg1_34,Judg1_35,Judg1_36]
+}
+
+const Judges = {
+    chapter: [JudgesOne]
+}
+
 const bible = {
-    books: [Genesis, Exodus]
+    books: [Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua]
 }
 
 function randomVerse() {
